@@ -1,0 +1,33 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+b {
+    font-size: 25px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+figure {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
