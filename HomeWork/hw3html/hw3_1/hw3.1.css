@@ -1,0 +1,35 @@
+
+body {
+    margin: 2%;
+}
+
+header {
+    height: 60vh;
+    background-color: deepskyblue;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+
+section {
+    height: 50vh;
+    width: 32%;
+    background-color: #205ea5;
+}
+
+footer {
+    height: 90vh;
+    background-color: deepskyblue;
+}
+
+header, section, footer {
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

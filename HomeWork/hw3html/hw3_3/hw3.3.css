@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+
+#top-section {
+    background-color: coral;
+}
+
+#center-section {
+    background-color: aqua;
+}
+
+#bottom-section {
+    background-color: forestgreen;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
