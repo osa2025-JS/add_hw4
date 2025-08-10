@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 20vh;
+    background: #8D8484;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    height: 20vh;
+    width: 73vw;
+}
+
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+
+.content-1 {
+    height: 20vh;
+    background: #776969;
+}
+
+.content-2 {
+    height: 20vh;
+    background: #643030;
+}
+
+.content-3 {
+    height: 20vh;
+    background: #441818;
+}
+
+aside {
+    height: 30vh;
+    width: 27vw;
+}
+
+.spam-1 {
+    background: #937575;
+
+}
+
+.spam-2 {
+    background: #644C4C;
+
+}
+
+header, footer, section, aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: #000000;
+}
+
+section, aside {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
