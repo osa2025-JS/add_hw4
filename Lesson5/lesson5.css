@@ -1,0 +1,18 @@
+.pink-box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: pink-yellow 5s linear infinite alternate;
+}
+
+@keyframes pink-yellow {
+    from {
+        transform: translate(-300px, -300px);
+    }
+
+    to {
+        /*transform: rotate(0deg);*/
+        background-color: yellow;
+    }
+}
